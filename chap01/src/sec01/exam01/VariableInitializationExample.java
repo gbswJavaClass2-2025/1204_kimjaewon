@@ -9,6 +9,7 @@ public class VariableInitializationExample {
 		int result = value + 10;
 		
 		System.out.println(result);
+		//ffff
 	}
 
 }
