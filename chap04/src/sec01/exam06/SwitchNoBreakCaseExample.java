@@ -14,7 +14,7 @@ public class SwitchNoBreakCaseExample {
 			case 10:
 				System.out.println("업무를 봅니다.");
 			default:
-				System.out.println("외근을 나갑니다.");;
+				System.out.println("외근을 나갑니다.");
 		}
 	}
 
