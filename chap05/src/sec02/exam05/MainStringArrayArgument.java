@@ -3,8 +3,12 @@ package sec02.exam05;
 public class MainStringArrayArgument {
 
 	public static void main(String[] args) {
-		if(args.length != 2) {
+		if(args.length < 2) {
 			System.out.println("값의 수가 부족합니다.");
+			System.exit(0);
+		}
+		else if(args.length > 2) {
+			System.out.println("값의 수가 많습니다.");
 			System.exit(0);
 		}
 		
