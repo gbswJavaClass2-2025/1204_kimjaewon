@@ -1,7 +1,5 @@
 package sec04.exam01;
 
-import sec04.exam01.Calculator;
-
 public class CalculatorExample {
 
 	public static void main(String[] args) {
