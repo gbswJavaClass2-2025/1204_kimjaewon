@@ -9,7 +9,8 @@ public class PracticeExample{
         Dog dog = new Dog("골든 리트리버");
 
         System.out.println("[1. 상속 & 객체]");
-        
+        tiger.displayInfo();
+        dog.displayInfo();
 
         System.out.println("[4. 오버라이딩]");
         tiger.makeSound();
